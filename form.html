@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registeration form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+
+</head>
+<body>
+    <main>
+        <form id="customForm">
+            <fieldset>
+                <h2>Our Contact Form</h2>
+                <legend>
+                    <h1>Student Google Form</h1>
+                </legend>
+                 <!-- Text Input -->
+                 <p class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Type Your Name" required>
+                 </p>
+                  <!-- Email Input -->
+                  <p class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Type Your Email" required>
+                  </p>
+                   <!-- Multiple Choice -->
+                <p class="form-group">
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </p>
+                <!-- Dropdown -->
+                <p class="form-group">
+                    <label for="role">Role:</label>
+                    <select id="role" name="role">
+                        <option value="student">Student</option>
+                        <option value="student">UI/UX Design</option>
+                        <option value="teacher">Web Development HTML CSS and Javascript</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                <ul>
+                    <li>
+                        <a href="/index.html"> Back To Home</a>
+                    </li>
+                </ul>
+                <p>
+                     <!-- Submit Button -->
+                    <button type="submit">Submit</button>
+                </p>
+            </fieldset>
+            </form>
+            <hr class="foot">
+            <footer class="form_footer">
+                <p>Copyright &copy;  The Little Taco Shop 2024</p>
+            </footer>
+    </main>
+</body>
+</html>
